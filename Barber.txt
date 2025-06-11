@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corte Fino – Reserva tu cita</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero con CTA -->
+  <header class="hero">
+    <h1>Corte Fino</h1>
+    <p class="tagline">Corte fino, flow pesado</p>
+    <a href="#reserva" class="btn-cta">Agenda tu cita</a>
+  </header>
+
+  <!-- Servicios -->
+  <section id="servicios">
+    <h2>Servicios & Precios</h2>
+    <table>
+      <!-- lista Servicios -->
+    </table>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria">
+    <h2>Transformaciones</h2>
+    <div class="gallery">
+      <div class="img-card"><img src="<!--imagen1--> " alt="Antes/Después"></div>
+      <!-- más tarjetas -->
+    </div>
+  </section>
+
+  <!-- Reserva -->
+  <section id="reserva">
+    <h2>Reserva tu cita</h2>
+    <form class="booking-form">
+      <input name="nombre" required placeholder="Nombre completo">
+      <input type="date" name="fecha" required>
+      <input type="time" name="hora" required>
+      <select name="servicio" required>...</select>
+      <textarea name="notas" placeholder="Algo que debamos saber?"></textarea>
+      <button type="submit" class="btn-cta">Enviar solicitud</button>
+    </form>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios">
+    <h2>Lo que dicen de nosotros</h2>
+    <div class="testi-cards">
+      <blockquote>“Desde que descubrí Corte Fino, ya no quiero otro lugar. El trato es excepcional.” <cite>— Carlos M.</cite></blockquote>
+      <blockquote>“Fue mi primera barba y quedé sorprendido con el diseño. Todo plano y limpio.” <cite>— Andrés R.</cite></blockquote>
+      <blockquote>“Ambiente de confianza y súper buen flow en la música. 5 estrellas.” <cite>— Javier S.</cite></blockquote>
+    </div>
+  </section>
+
+  <!-- Contacto y horarios -->
+  <section id="contacto">
+    <h2>Contacto & Horarios</h2>
+    <p><i class="fas fa-map-marker-alt"></i> Guanajuato 14, San Antonio Zomeyucan, Naucalpan, Méx.</p>
+    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/525611615924">56‑1161‑5924</a></p>
+    <p><i class="far fa-clock"></i> Mar-Vie 10–20h · Dom 10–22h · Lun sólo cita</p>
+  </section>
+
+  <footer>&copy; 2025 Corte Fino</footer>
+</body>
+</html>
