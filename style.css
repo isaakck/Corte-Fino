@@ -1,0 +1,14 @@
+/* Ejemplo de estilos en style.css */
+.btn-cta { background: gold; border-radius: 5px; transition: background 0.3s; }
+.btn-cta:hover { background: #ffd700cc; }
+.reservation-form input,
+.booking-form textarea {
+  border: 2px solid #333;
+  transition: border-color 0.3s;
+}
+.booking-form input:focus {
+  border-color: gold;
+  box-shadow: 0 0 5px gold;
+}
+.gallery .img-card { overflow: hidden; transform: scale(1); transition: transform 0.4s; }
+.gallery .img-card:hover { transform: scale(1.05); }
